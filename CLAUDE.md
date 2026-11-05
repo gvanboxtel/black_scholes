@@ -15,3 +15,7 @@
 - Each new C++ topic gets its own `CPP-NN` sub-issue, placed directly before the first issue that needs it and listed as its blocker. Its exercises go in a throwaway `scratch/` folder.
 - Acceptance criteria use numbers checked independently. Tools are tested on this machine first (Windows, MinGW `g++`, CMake with Ninja, WSL Ubuntu for sanitizers), and anything that differs from the docs is stated in the issue.
 - A new issue gets the labels above, is added to the board with Status, Priority, Size and Estimate set, and is linked as a sub-issue of its epic.
+
+## Pull request reviews
+
+- PR reviews use teaching mode too: point to the problem and give a hint, no ready-made fix.
